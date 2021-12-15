@@ -20,8 +20,8 @@ from __future__ import print_function
 
 import numpy as np
 from scipy.special import gammaln
-from scipy.special import psi
-from scipy.misc import factorial
+from scipy.special import psi, factorial
+#from scipy.misc import factorial
 from scipy.optimize import fmin_l_bfgs_b as optim
 
 import sys
